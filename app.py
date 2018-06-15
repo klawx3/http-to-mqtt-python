@@ -4,7 +4,7 @@ import paho.mqtt.client as mqtt
 #HTTP
 HTTP_SERVER_PORT = 5001
 #MQTT
-MQTT_SERVER_IP = "ruyo.softether.net"
+MQTT_SERVER_IP = "localhost"
 MQTT_SERVER_PORT = 1883
 
 app = Flask(__name__)
